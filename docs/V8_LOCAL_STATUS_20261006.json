@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-10-05T17:01:43.716335+00:00",
+  "worker": {
+    "name": "local",
+    "last_seen_at": "2026-10-05T17:01:43+00:00",
+    "phase": "idle",
+    "task_id": null,
+    "online": true,
+    "age_seconds": 1
+  },
+  "quota": {
+    "scope": "this_database_only",
+    "day_timezone": "UTC",
+    "day": "2026-10-05",
+    "total_used": 17,
+    "total_limit": 30,
+    "daily_used": 5,
+    "daily_limit": 5
+  },
+  "provider": {
+    "remaining_estimate": 84,
+    "last_header_at": "2026-10-05T05:53:04+00:00",
+    "updated_at": "2026-10-05T05:53:04+00:00"
+  },
+  "alerts": [
+    "目前 UTC 帳本日次數已用完，下一次台灣時間 08:00 重置。"
+  ],
+  "observations": 10,
+  "distinct_asins": 8,
+  "evidence_count": 8,
+  "plan": {
+    "status": "READY",
+    "schedule_status": "LOADED_AND_MATCHED",
+    "report_schedule_status": "LOADED_AND_MATCHED",
+    "scheduled_time_local": "09:10",
+    "report_scheduled_time_local": "09:20",
+    "remaining_planned_requests": 9
+  },
+  "real_website_task_count": 0
+}

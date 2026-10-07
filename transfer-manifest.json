@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-06T08:35:17.241362+00:00",
+  "database": "data/gummy.db",
+  "tables": {
+    "_schema": {
+      "count": 19,
+      "sha256": "793f784b3e7773f66d3c317b333661a2ddb5a9a9267b37d0876e191b9359c445"
+    },
+    "collection_runs": {
+      "count": 10,
+      "sha256": "2f848565276d02d5bbc4dae4b57b9f2b141f1d20a290936c5d1f400f43131ec3"
+    },
+    "quota_budgets": {
+      "count": 6,
+      "sha256": "832e7cb439b7326d8e98d1e8628e06ee738792208bbc75b1a2af113b1d0e792a"
+    },
+    "product_snapshots": {
+      "count": 16,
+      "sha256": "4fb5fbeb8f7a1f7d664dcc3de10450a00222ca250192e332b0240731203983f0"
+    },
+    "api_attempts": {
+      "count": 20,
+      "sha256": "e34011f9158aa187dbcfb24dd31c037cb24930333555820dae2e997e2c5c5107"
+    },
+    "source_observations": {
+      "count": 10,
+      "sha256": "ae9b966126e2a214222c01bd28c5b99c8a646aa4632ecd8cbb25726199ea73d2"
+    },
+    "provider_quota_state": {
+      "count": 1,
+      "sha256": "11ef8a2b1fa0916ac275d98da40511f5d0ba0ad9ee713e2f25f414634933cad2"
+    },
+    "human_review_heads": {
+      "count": 1,
+      "sha256": "f2a51e5be01dcabbe4f6fa2c6ef929ad22fcec07566982d7f4e744d6d31f086d"
+    },
+    "human_review_events": {
+      "count": 1,
+      "sha256": "9eea09fffac8b78ab350e1e2d7557a8b5f7202aedeb5c7ec50159aa762562419"
+    },
+    "human_review_annotations": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "operation_worker_state": {
+      "count": 1,
+      "sha256": "b0874a9e33468ba23ad004e581fc1c4a75d5b0ae1dee635abb2eb82311bfb295"
+    },
+    "operation_tasks": {
+      "count": 1,
+      "sha256": "c4821b35f823ac5805e157b2c146aea11e38758e6fee3daf373c060b5c9ddd29"
+    },
+    "operation_reports": {
+      "count": 1,
+      "sha256": "1910f08a664d5a9b1fdde032c74702ef9639eca47c3669021c3e624003a36b4c"
+    },
+    "operation_task_events": {
+      "count": 3,
+      "sha256": "9d1e340bd884fee10c3df2fbc32b87bced343ba75250c42e828981c4774ab0bf"
+    },
+    "schedule_versions": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "report_versions": {
+      "count": 1,
+      "sha256": "afaae042ddd291132aa42b41d9392f2cf0a3e7273f96ca469d08954232ea900d"
+    },
+    "recurring_control": {
+      "count": 1,
+      "sha256": "5869b7070789ebeb7fc5b9591f8bb9e74d1cae29a5185b80217ff4b0bcee7f48"
+    },
+    "recurring_rules": {
+      "count": 2,
+      "sha256": "2e75c4f90d50a183f0ba54f18112b2c72a78540e14c2663c51f1f871dd1ce064"
+    },
+    "recurring_versions": {
+      "count": 3,
+      "sha256": "cb8cbbb633c3ad66b0149ee532378e5e6d2b2dffa71d3a55baba099113636d38"
+    },
+    "recurring_occurrences": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "files": {
+    ".env.example": "0c491c66d8dbd27bf7302ba58014cf54e28f5537c8d557c2c5406f68ce07b60a",
+    "README.md": "f1059f99261f4766473abd64b628599a3b54c2e910be49269900876de9ae7e6f",
+    "data/gummy.db": "63d171a13c8c741c5b4aca621e418cdaa574f9e4edf7074590512e9f215fbcfe",
+    "data/python-scheduler-state.json": "1cfcc272302be1c53644078440ddb8abc56a4d1c7114ecafd487c66994ded67e",
+    "docs/CLOUD_RUN.md": "836cd2d88f6394150b4f995bd679069bc8ef85d53c8da9a4d618884635da1d90",
+    "docs/COVERAGE_PLAN.md": "a90d9e192895beccd3163dd15b104be3d44ec98ca851afbb0cca1eb553e7c831",
+    "docs/DEVELOPMENT.md": "a804caebb6bff1a190903599c2d8b5e0555f33810854f0ba82ba8cac3df221ac",
+    "docs/LOCAL_SCHEDULE.md": "e9df745f8baffa67f01892eb0524319836e81b171094b2cb5b0c03617a076426",
+    "docs/OPERATIONS_V8.md": "6b81d0d0d4fed890df65d3e36ba4023af780cf559b66aa449448a1d8ebb9574a",
+    "docs/OPERATIONS_V9_V10.md": "7e32eac9781a8318822ab616e82297a899f0fb99b5c7fa703089d0612f149ff4",
+    "docs/PYTHON_SCHEDULER.md": "a9b030a234b348e0bb0b300980f972da7408474a6a9390f5de2cf93e00c630f3",
+    "docs/PYTHON_SCHEDULER_LOCAL_STATUS_20261006.json": "9d57f5227802222646856a6817580a1b7f40f2e42bf43fa22b87412468259208",
+    "docs/RECURRING_CUTOVER_20261006.json": "458cad38f206beed37a62d11b98e5c5e0b0a2caf37eae3cb0aa570a20c61c9dc",
+    "docs/RECURRING_SCHEDULES.md": "d6fa721250a5b5d82beb44f43f11898bf4f56d84f820722f9a78344afbc4323c",
+    "docs/REFERENCE_FIELDS_20261005.md": "392d8d5e1627d1c7003182b02af63480f8353c49ce3ec0079ff1523a71a37aba",
+    "docs/SAMPLE_CHECK_20261005.md": "2601d4b14fa84c398492898de4a20ae45b9c0300964fe8375dfc1a6d4214b20d",
+    "docs/V10_LOCAL_STATUS_20261006.json": "f5ca441327a4801d7a638745d94308dc744aec92946c78203952118a428767dc",
+    "docs/V8_DEMO_VALIDATION.json": "efcc2c015ec2fe095c5f2d0215f19b65abbdd63904820f77b6a2c1710516a9c2",
+    "docs/V8_LOCAL_STATUS_20261006.json": "75b9b8f4f196b71178854197cd52befe6edb4e1ec87a1016d08b36b0477ff2ed",
+    "docs/VALIDATION.md": "4e46a203627179dd4a4a6943c41a67d09ca4b895437159c6aafcb1c101f5a4ba",
+    "docs/WORKBOOK_UI.md": "537691ce1525a0c64c9b7a48a71a0b23f23afb20eeb4d0560e68ad6cc74a4dfc",
+    "docs/progress-20261003.svg": "77ef88d0b67abd924211ad82894b44fca5c487ab479471818e6a1f77bd125deb",
+    "docs/progress-20261004.svg": "b9812fb9e23e0246083ad4b1bc07f442dce8797b2e446a4fce807fff895ab02f",
+    "docs/progress-20261005.svg": "2863fc81439825baba6795f4c23e351a773539cc026726710f894bd9c90293e4",
+    "docs/progress-20261006.svg": "f3371fab32b443e73f537aecb3fe097eeea9d77fdbb9973eef97ad53345c8232",
+    "docs/sample-review-run9-20261005.jpg": "d6ca5605493ff35aee046fa926a293e65732ce61ce593a556108a00dbec4907f",
+    "docs/ui-qa-20261004.jpg": "d72b4f4a6c504fbc3dc648cf4afcd09b48d8ad351db060456ba0d37f56345a41",
+    "docs/ui-recurring-demo-result-20261006.jpg": "8dc35fb70688996775506a6ec112c2602d131f66f98ce7092ee696ada122ba65",
+    "docs/ui-recurring-schedules-20261006.jpg": "1b5a96fa5de008da463a901af790303258006530cb29a860c4e88a90db5e0182",
+    "docs/ui-redesign-desktop-20261004.jpg": "76c57c7b0baca875a8fc8f7ae8c930fad9098d37ea6d063c43979d1c6a73d7ae",
+    "docs/ui-redesign-mobile-20261004.jpg": "1e2c2edbce9bf5fd1cd198c8b287e6e3edc66a8a7be8353acf96eeb518f9f2d7",
+    "docs/ui-redesign-review-20261004.jpg": "c7088de4f4ee66dc55523b3e0e87519cf7401bc9c0cda29e5c53e22d97bf1797",
+    "docs/ui-status-20261004.jpg": "4defa2b209a07df6e2c60717f8dc80e3307588035c90612b7ee7d566a7f31908",
+    "docs/ui-v10-mobile-20261006.png": "23344f7e0fd61d78aa12cfcb1fd4fac9a5a1c57fe4ce0ec6b34a2dbdbcc1c6b3",
+    "docs/ui-v10-report-center-20261006.png": "df9c9a3e7ac0c490cc28517e96699af81998666e05e7b21f875c8b477da6828f",
+    "docs/ui-v10-report-version-20261006.png": "6778031133be7051623b1c381ceca05e328c0305730ca37dffd50290d926280d",
+    "docs/ui-v2-mobile-20261004.jpg": "45011fadfc85a7ea84fe1755337007c877e97bd67c56c6e396ddbc41b93b9f8e",
+    "docs/ui-v2-products-20261004.jpg": "1f536f545e48b4b485dd4bab00dce129990c9f5ac05fa4ae7ffca914be069ca3",
+    "docs/ui-v2-results-20261004.jpg": "bee683845b6a1f5d44303599ab5739ce9b21b4358c635fe6318ba5da6c5313fe",
+    "docs/ui-v2-settings-20261004.jpg": "c2a109cd57bf1b75e747d9e314f902c7bf6c151c915b3cfa328fe65793e5eff9",
+    "docs/ui-v3-review-demo-20261005.jpg": "7f3eab87f1873077d4efd7b2b5adc38433dda7b995e42ba5f1e46b6e568f05f5",
+    "docs/ui-v3-review-list-20261005.jpg": "bdd3fc5ca70d7e31d4fdc2df644536a98b9eadae036f54199a649753d300d11e",
+    "docs/ui-v3-review-mobile-20261005.jpg": "a7ee4916a41070b3c5b6addac7cdae0599940c7a5bf3904a4b2def6d990c6773",
+    "docs/ui-v3-reviews-20261005.jpg": "fc54ae3084ac83a3cfe3975c616fdfc777a681edcc360c801b8dd6dfebcaddac",
+    "docs/ui-v4-analysis-desktop-20261005.png": "7f741c6c6e2c4d83c90992a3d82d54e11142593cc50b6b0cddb8312e52175117",
+    "docs/ui-v4-analysis-mobile-20261005.png": "3ac47f1515877bc8f05db30c2b86f01b461c38fb3eecf12cae890e4cf14346f0",
+    "docs/ui-v4-analysis-results-20261005.png": "67a2965c85d1beae9b7f25d936fe7709ed83a6787bfc754e5c53782fbbf861ae",
+    "docs/ui-v5-review-labels-desktop-20261005.png": "7442f054ba09f12f5b12aab07bdfc18a4e85fb1d70f403a99677821835d51c4a",
+    "docs/ui-v5-review-labels-mobile-20261005.png": "8ac0df4ea1e75624cccdffbb7e99b18891e9cfb2f5fc97aea68b89f446aa560a",
+    "docs/ui-v6-source-reviews-desktop-20261005.png": "bb3b434c047759fe129c74518ddc2a5a1ff94ce26a1d60b11e18c3680186fb52",
+    "docs/ui-v6-source-reviews-mobile-20261005.png": "8badce2f5a39d2777f97c74a843d97be43ee312463a28cc06abb5298a8a07ad1",
+    "docs/ui-v8-budget-block-20261006.png": "277230f0de8d83fac6771e91aadfef732be808a6cfd39fbb361852f017a3ba9d",
+    "docs/ui-v8-operations-desktop-20261006.png": "3ba13902869e9eb5daf32f2ee5803e21b0a32babc04395e4dd811d9a2230a521",
+    "docs/ui-v8-operations-mobile-20261006.png": "7e80c28b3570d37c76402f9b5e7a98dbf6c3d9f2e1a9bb140e7c09806f8cc0ea",
+    "docs/ui-v8-task-default-20261006.png": "cb04195e8a723d4d3dd745e946555d0e148c7ace9c37368eb8185d86683aeb56",
+    "docs/ui-v8-task-success-20261006.png": "cb04195e8a723d4d3dd745e946555d0e148c7ace9c37368eb8185d86683aeb56",
+    "docs/ui-v9-schedule-editor-20261006.png": "d1c4ac6925887df9eb11040192dc363d985a507bf6eacd0f40c717f7d54dc5a8",
+    "exports/amazon-20261002-run3-candidates.csv": "ed8484c46f3942bf2e2b58b31c95224a2d16fd109c907408a9a5281df847fbe0",
+    "exports/amazon-20261002-run3-combinations.csv": "284292fdf3116cb44161119ab8c9603a16a308a6b933bc239f85a4ef56ac858b",
+    "exports/amazon-20261002-run3.csv": "45ad6f137b3284a66e45887ef1d65c58df4157839fddb1b5f4943b90c1f020a8",
+    "exports/amazon-portfolio-run6-verified-20261004.xlsx": "e972c37ade8216acedb5c67c22a69829c916aeb148eef42e7a71b12bfefb68a5",
+    "exports/amazon-portfolio-run6-verified-20261004.xlsx.verified.json": "f789d1db1fe9e6d9196737cd8f35325ddb73e14a2b70c971699ef4d0bcb254db",
+    "exports/amazon-run3-workbook-data.json": "ba300bda209d8b18ee56a78c0f60828fe39dcc11361085fc81aa8b29d71d2824",
+    "exports/amazon-run5-audit.csv": "b77b44aef9bf0c54f841ba5fd72c72c908edf6eccabd1196cc5c0b8413a2ac9d",
+    "exports/amazon-run5-combinations.csv": "394d604abdaf1ab05942d6b54433bc83535790d520751618e55857a578d96e92",
+    "exports/amazon-run5-products.csv": "6d117837f36f29b8dde0f75d688b32ee17a5f040fe4d3f8fdf69b60d805aa9df",
+    "exports/amazon-run6-audit.csv": "694c8bc0266ae9147137c2aa29f499873dc42268f56dee0f5445f08f5276c536",
+    "exports/amazon-run6-portfolio-data.json": "f10e433b5045fdcf954f5e8f6aa99f2cf4722da77558b9e0aea21d2b14bf2c29",
+    "exports/amazon-run6-products.csv": "dbb8be0d3038032586a66abf64dd79e3c923e9bec47e89584115320ce801f44b",
+    "exports/calendar-smoke-20261004/calendar-smoke-20261004-20261004-run1.xlsx": "b4d9ca32265ff9691365b1ad1cd391f338a7466f84d040a4474bc8cac8969cb3",
+    "exports/daily/handtools-20261004-08-20261004-run7.xlsx": "5b31f51533d063bad040df7998655a8cf0b87eb131865663540b606e2c0234bc",
+    "exports/daily/handtools-20261004-08-20261004-run7.xlsx.verified.json": "84edd0f62f8a4eca0b570e748fe05036628566e6ec4cf1d5f04f120d6132f1ea",
+    "exports/daily/handtools-20261004-08-20261005-run8.xlsx": "c0ad6d14eff8b6fba46f1f867a5ed0ff2e646433d9fa23d3e903f51b03b7ac8d",
+    "exports/daily/handtools-20261004-08-20261005-run8.xlsx.verified.json": "fdedf31146ba09979b06a6052efce2aa3f53d6b424487f23afffd20d7875685f",
+    "exports/daily/handtools-20261004-08-20261006-run10.xlsx": "80fd5486c52afd2de62769b3da7a6ec75bdf0f6b0d8684956f3e2ad9ca55e1a4",
+    "exports/daily/handtools-20261004-08-20261006-run10.xlsx.verified.json": "6dac304128ec0221b327d943b2cefc63ced1a4fa78a410806eec4d15069129bc",
+    "exports/demo-20261002.csv": "f216d433a57d76b4d2e4a1980182ed2bf38de53d653e6004deb6a1c03050fc0c",
+    "exports/demo-products.csv": "24de94826133f9baf187aef7f01181d98cdf4c5d732b1fd03e5753d1f083b9b2",
+    "exports/operations/81dca23463c6471b4e364f51dde9e2c8.xlsx": "e3e7741271ae36715c9a090d3e36c804f67e0f0e5568a477747ad4c52f43a22f",
+    "exports/operations/81dca23463c6471b4e364f51dde9e2c8.xlsx.verified.json": "88ec908d59832610b8f5d84906ede34f517e161059eac1aa7f27c27c9012b0f4",
+    "exports/operations/a28284bdfde64130d02f14a109578f7f.xlsx": "422eb4b813933cdb42ca649992bfaedc2e11f9b275e5e3f94d12f675cdfb5574",
+    "exports/operations/a28284bdfde64130d02f14a109578f7f.xlsx.verified.json": "6bef2d0f5856d58e7a5941cc2990a4c35b9df18d65208d0d05e776f4334fee53",
+    "exports/operations/cd72f622102a46f326be0c5f19b8151f.xlsx": "5884477f5d0afcb25d033049b214ca131a2e7aaa8d6805cc13a7f379f75c7987",
+    "exports/operations/cd72f622102a46f326be0c5f19b8151f.xlsx.verified.json": "8eb575108a5574dc8422612e0b6a2ad76003f8150b169effde4e4ec407e47bb4",
+    "exports/operations/f52820126cd837b54d48e31c2b597827.xlsx": "c04f865dfe2eb0abc174f7ff2a6e62adff973a170d8da5b31c5d958c12155add",
+    "exports/operations/f52820126cd837b54d48e31c2b597827.xlsx.verified.json": "b82ff3a3e134f66c6c6a69e67ced5e30a3300a49683a87e821ec3ba771fc3ae8",
+    "gummy/__init__.py": "92e87c39f0015270f6f0c70e585631fbb2bfa6d8e5556b3030cb90a74230363e",
+    "gummy/__main__.py": "2b151fae6fd075a834987e20203eaf10a0af5cb717fb0f07c5bd5ce37f051f01",
+    "gummy/analysis.py": "f5d7bd5f177fb57efc5ad10f3f401434163af74c021154bb4003dbaebf917fd1",
+    "gummy/analysis_ui.py": "87bece24c9337d4fcf92346efa4fe2a18a6422cd09b4e3dddbf03fd5368cd788",
+    "gummy/api.py": "d96d70d56453490b6efa4b5d9dc8dfcef5f4e72d4e953ad2affee0c59de9fe38",
+    "gummy/catalog.py": "ada2a0eb1c5fc590bd2f9256a89ca6117c682194c0843655638b2d0b3267d42b",
+    "gummy/classification.py": "9f661350a944165d532dea9f920530e6b8bd18915a14c6d3d901d095915b89c0",
+    "gummy/cli.py": "0049bcb6ba870792192825ab38379b25f3e9617f88fc99557383c7703a726411",
+    "gummy/config.py": "1f178aae302d00b8529c527781fdc593a747eb26a249977dfc59af3217e380e3",
+    "gummy/db.py": "5b8365c9c16b1360e131565fe6568855abcd8384278d505ab861040827aef59a",
+    "gummy/errors.py": "bbc90760fdec765eaf1833e72871cab290cf5bf5271cfc4c84172d385316a644",
+    "gummy/local_forms.py": "c44e4a59c647702b9bde1f26fb43363f3b42101b6dd8f08406dc1ee2f50bddfd",
+    "gummy/local_settings.py": "afd8f66d3042a802e999bb3bc53e186838c7f41f1e57237db000c165ca532c34",
+    "gummy/locking.py": "edac70a62a8b5136710eb7d83f5f09dbd7919895a2c440627408062272265c69",
+    "gummy/models.py": "a1427c4ea37c7b132917729b2202da8f9f09b67710b7f972ccf535b346076f5e",
+    "gummy/monitor.py": "3e3d0562782bc94d151625cab88a5bb3c046b50497502c5adb2ca20ed46c1e65",
+    "gummy/operations.py": "5e0a5070115b7252a8bd42099643b64e29d24a0d9caf7d85460dfa622caf3d26",
+    "gummy/operations_routes.py": "4f902ae3c412e1b279fa49a598c97ff28c4a9e9c78efb8fa1934cee503b970a2",
+    "gummy/operations_ui.py": "ee55c35f78cbfdbbee0a67bb60d626e2c2270fc67d1e3fe6d8928c7727a04eba",
+    "gummy/plan.py": "e3f2577689d2eccade13503be3f4dcebe01851929f3ba0f9090ec9c2c7fd49fa",
+    "gummy/plan_report.py": "0749d86436c578a8b79590ee99e589d518545f0ae440be26f178012be09083cd",
+    "gummy/portable_workbook.py": "b47a78da42aa86d4eb9b387ed9b4872b3f3e2501c6427d7fcb0b0562f6618340",
+    "gummy/python_scheduler.py": "bc0bf94661ddbc886ba10d287c677013e479771efe7138e8bef9fadd3942f71d",
+    "gummy/quality.py": "34489109c8a35a56b9503087facfa75d8308f5577484bb8a34a174929d88de61",
+    "gummy/recurrence.py": "1579540df8f9ac2e87535a54df803390d46fdbb6bf3c209e165cf8fb0a69ff38",
+    "gummy/recurrence_report.py": "a8521c0f7da61de25f53c914d0eaa0250f444a2e89101b0b103ed45f85a15fbf",
+    "gummy/recurrence_ui.py": "8b5f7ba86ddc79b274f91fd1375ca2d63f00c4014270c6fba26cc3cc086e5188",
+    "gummy/reference.py": "6fe7306d3ac0097cd79957995a15c4941e641ca77e3e0b871c9b3c8af8210bbe",
+    "gummy/report_center.py": "bccb4f5a4f0ed613f48d19b02b28588e6217cfa2ae3bc782bac5071ff0fb3533",
+    "gummy/report_routes.py": "2135f535a114160ba73fecea30e73ab3c657ef42f687648f75729f503d889870",
+    "gummy/reports.py": "40ec7127339105b581d80e006080e1d154fe3752549e60d75485d67da8bbe461",
+    "gummy/review_routes.py": "68ba4097912195e2f1b2ebc54027aa6a843480231a2fcce8997c92a2120be2de",
+    "gummy/review_status.py": "66055be66f01937398bd402cbe42731af235dc28144b4509090bc71d6d534c8f",
+    "gummy/review_ui.py": "fca9edb56f0fe883c4cb3d9b8b490764003085f430999e4502448c928f7c19ea",
+    "gummy/reviews.py": "44ac9e37f96ced2c9caba32e76434a6b8dfdefeb4888543ce06af9dfa68981d3",
+    "gummy/schedule_management.py": "30015d12da785893a34d9ea11f17e9668bdec47462e221b5425572b991fd360c",
+    "gummy/schedule_routes.py": "a4eece2a3dccfc826df2b07bf8d92e7a6c648da87cb24622c359ebf35dc51c69",
+    "gummy/scheduled.py": "4343db7e23d9f2ac007e65e1c6f946ec977fc6b9e9430698b272d72df157be10",
+    "gummy/sources.py": "dad65929eb476c7714dc53653c5c099dd3c38062e471d80e3686763d4adfce76",
+    "gummy/transfer.py": "19cd59856a89578ead1d9cbbcbdd1bfff94ea61e2913aa316ce1b68c26acaaef",
+    "gummy/ui.py": "cbab80aeaf90956f73960371243bb8e9a864e55dfca19e578c2704b2b2746074",
+    "gummy/verification.py": "e713ff96618216fc0ed4f0565cea4b5ac1e897e75498c3e210405b83e132e280",
+    "gummy/workbook_data.py": "07a942ddf26da5bd432ebc536a036bdb372df3a897ae853ca9a7bc19b7d25a48",
+    "gummy/worker.py": "8e39979d1478913a71b8d872e200a399d6a9606daf4a21d73b10a05f0db7870e",
+    "gummy/workspace_ui.py": "695cd30e03c64af2039bdec4fc93a25fab1eac2cb3beca588229a416317e1048",
+    "plans/hand-tools-20261004-08.json": "2467613a5510f1b393fc80a905af737bbffa3c859ea41414bad1d90d650da6e0",
+    "pyproject.toml": "90f756fa7dce1e771a7456a94dc826b9535c9d1e97ba69e20ef75e1340494e14",
+    "python-scheduler.json": "af9ba4e242ce1ffdfa950a64b988fa699bbd371a64606e4daaea0c4532ba0456",
+    "requirements.lock.txt": "6dacb2a4164f3d3622f862bd94a1847b54f8b1b9240538e8f59fe9e6c206e692",
+    "scripts/backup_sqlite.py": "a7c8bbfbc894483858c8bb6c5d2350e6ddeed3469a656becc113b28ee65973e6",
+    "scripts/build_portfolio.mjs": "625a290fd186554cbb78d0c8e31bce8cb81b91833922c09e21d12e5dfb9fc072",
+    "scripts/build_workbook.mjs": "2c34bf0d30bfddb988a309e1dad6766b660eac43cfc0791dc9e1cb80e946f9e4",
+    "scripts/export_portfolio_local.sh": "c4096838c688ce5056eb7e7b28d0d92de1b4d18e426c671bb7df623347be0a37",
+    "scripts/export_workbook_local.sh": "2912629e4245d45938e791743cb95ec5db80ef7280d85986325cfe3edfe25130",
+    "scripts/scheduler_startup.py": "f6753628c6347abe0e8ab9a81d6329540a6e8a64ca3ced00fb347227d5ac5658",
+    "scripts/transfer.py": "3525a498447ea02ebce018a47064c9b038f4dd6dc550b6c3df46f0bd0fcc43e8",
+    "scripts/verify_portfolio.mjs": "5ad1be2b70750e3f462f9dd1b18f71686400754874a28db58e2c6ae900b913ab",
+    "scripts/verify_portfolio_local.sh": "336a6c579752933fac4ead6751fcb8c27460a5303e63e604b301a740b0d24e01",
+    "transfer.env": "e1956b36ec3d6ef7f5bd12fbe0546131871b70d59b92d6bc0cada07b1b99c998"
+  },
+  "credentials_included": false,
+  "services_started": false
+}

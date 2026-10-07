@@ -1,0 +1,2 @@
+﻿run_id,source,is_demo,category,query,country,asin,title,brand,price,currency,rating,rating_count,material,measurement_system,title_measurement_candidates,title_measurement_evidence,size,color,observed_at,warnings
+6,rapidapi,False,六角扳手(Hex Key Wrench),hex key wrench set,US,B07V844YR8,"Amazon Basics 36-Piece Allen Wrench/Hex Key Set, SAE & Metric Sizes, Chrome Vanadium Steel with Long Arm, 2 Organized Storage Cases",Amazon Basics,10.49,USD,4.7,28924,chrome vanadium steel,,metric;sae,unverified_title_keyword,,black,2026-10-03T03:09:45+00:00,

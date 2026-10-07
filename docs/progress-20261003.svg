@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 625" role="img" aria-labelledby="title desc">
+  <title id="title">gummy Amazon 採集系統進度，2026 年 10 月 3 日</title>
+  <desc id="desc">由真實 API 取樣、入庫前來源對帳、分類報表及逐件查驗畫面，進入五天本機自動排程；每日成功與人工驗收仍待完成。</desc>
+  <defs>
+    <style>
+      .bg { fill: #f5f8fc; }
+      .done { fill: #e8f5ee; stroke: #258054; }
+      .active { fill: #e8f0fc; stroke: #2762a3; }
+      .pending { fill: #fff4df; stroke: #b17a20; }
+      .box { stroke-width: 2; rx: 18; }
+      .title { font: 700 25px -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans CJK TC", sans-serif; fill: #193047; }
+      .detail { font: 18px -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans CJK TC", sans-serif; fill: #465b70; }
+      .heading { font: 700 35px -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans CJK TC", sans-serif; fill: #193047; }
+      .date { font: 17px -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans CJK TC", sans-serif; fill: #5a6d80; }
+      .arrow { stroke: #88a0b9; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+      .badge { font: 700 20px -apple-system, BlinkMacSystemFont, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#88a0b9" />
+    </marker>
+  </defs>
+  <rect class="bg" width="1200" height="625" />
+  <text class="heading" x="84" y="58">gummy Amazon 採集系統｜開發進度</text>
+  <text class="date" x="84" y="87">截至 2026-10-03 台灣時間；流程中的完成標記不代表正式上線</text>
+
+  <rect class="box done" x="84" y="112" width="1032" height="76" />
+  <circle cx="124" cy="150" r="23" fill="#258054" /><text class="badge" x="124" y="150">1</text>
+  <text class="title" x="168" y="143">已完成｜真實 RapidAPI 取樣</text>
+  <text class="detail" x="168" y="173">3 個成功批次、5 筆商品觀測；本機帳本已用 9 / 30 次請求</text>
+
+  <path class="arrow" d="M600 192 L600 208" />
+  <rect class="box done" x="84" y="214" width="1032" height="76" />
+  <circle cx="124" cy="252" r="23" fill="#258054" /><text class="badge" x="124" y="252">2</text>
+  <text class="title" x="168" y="245">已完成｜入庫、來源留存與程式對帳</text>
+  <text class="detail" x="168" y="275">發布前先核對入庫值；現有真實新批次 3 / 3 件來源欄位 PASS</text>
+
+  <path class="arrow" d="M600 294 L600 310" />
+  <rect class="box done" x="84" y="316" width="1032" height="76" />
+  <circle cx="124" cy="354" r="23" fill="#258054" /><text class="badge" x="124" y="354">3</text>
+  <text class="title" x="168" y="347">已完成｜分類分頁報表與唯讀查驗頁</text>
+  <text class="detail" x="168" y="377">取樣 2 / 22 類；報表 8 頁、7 組，LibreOffice 另存核對通過；可查商品現況</text>
+
+  <path class="arrow" d="M600 396 L600 412" />
+  <rect class="box active" x="84" y="418" width="1032" height="76" />
+  <circle cx="124" cy="456" r="23" fill="#2762a3" /><text class="badge" x="124" y="456">4</text>
+  <text class="title" x="168" y="449">進行中｜五天本機自動取樣與查驗</text>
+  <text class="detail" x="168" y="479">09:10 採集與 09:20 分類報表均已載入並空跑；10/4 日曆觸發待驗</text>
+
+  <path class="arrow" d="M600 498 L600 514" />
+  <rect class="box pending" x="84" y="520" width="1032" height="76" />
+  <circle cx="124" cy="558" r="23" fill="#b17a20" /><text class="badge" x="124" y="558">5</text>
+  <text class="title" x="168" y="551">待驗收｜每日結果、人工分類與雲端方案</text>
+  <text class="detail" x="168" y="581">核對排程與 RapidAPI 帳號額度；逐件確認分類；Cloud SQL / Cloud Run 尚未部署</text>
+</svg>

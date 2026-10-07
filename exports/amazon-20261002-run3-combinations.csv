@@ -1,0 +1,3 @@
+﻿run_id,source,category,query,country,observed_batch_completed_at_utc,classification_mode,matched_distinct_product_count,material,measurement_system,size,color,group_product_count,priced_product_count,average_price_usd,currency,asins,title_candidate_asins
+3,rapidapi,套筒扳手,socket wrench set,US,2026-10-02T13:32:32+00:00,title_candidates_opted_in,2,chrome vanadium steel,metric,,,2,2,45.36,USD,B074MFYGSF;B08YRLZCPJ,B074MFYGSF;B08YRLZCPJ
+3,rapidapi,套筒扳手,socket wrench set,US,2026-10-02T13:32:32+00:00,title_candidates_opted_in,2,chrome vanadium steel,sae,,,1,1,75.73,USD,B074MFYGSF,B074MFYGSF

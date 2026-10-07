@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 827" role="img" aria-labelledby="title desc">
+  <title id="title">gummy Amazon 採集系統進度，2026 年 10 月 5 日</title>
+  <desc id="desc">五日試點已完成兩天，另完成使用者授權的批次九樣本查驗。累計十筆觀測、八個商品、四個參考分類。新版十四頁活頁簿保留實際框線、二十七筆規格對照及八則來源評論。依使用者指示取消人工評論主題與正負向標註，直接顯示原文、星等、日期及評價數；來源缺值保持缺值。規格候選尚未套用。網站既有資料核對歷史保留但非閱讀評論的必填流程。美元價格及逐則全文仍未獨立核對，尚餘三天原排程。</desc>
+  <defs>
+    <style>
+      .bg { fill: #f5f8fc; }
+      .done { fill: #e8f5ee; stroke: #258054; }
+      .active { fill: #e8f0fc; stroke: #2762a3; }
+      .pending { fill: #fff4df; stroke: #b17a20; }
+      .box { stroke-width: 2; rx: 18; }
+      .title { font: 700 25px -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans CJK TC", sans-serif; fill: #193047; }
+      .detail { font: 18px -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans CJK TC", sans-serif; fill: #465b70; }
+      .heading { font: 700 35px -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans CJK TC", sans-serif; fill: #193047; }
+      .date { font: 17px -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans CJK TC", sans-serif; fill: #5a6d80; }
+      .arrow { stroke: #88a0b9; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+      .badge { font: 700 20px -apple-system, BlinkMacSystemFont, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#88a0b9" />
+    </marker>
+  </defs>
+  <rect class="bg" width="1200" height="827" />
+  <text class="heading" x="84" y="58">gummy Amazon 採集系統｜開發進度</text>
+  <text class="date" x="84" y="87">截至 2026-10-05 v6：以採集來源為基準、評論唯讀；原 09:10／09:20 排程不變</text>
+
+  <rect class="box done" x="84" y="112" width="1032" height="76" />
+  <circle cx="124" cy="150" r="23" fill="#258054" /><text class="badge" x="124" y="150">1</text>
+  <text class="title" x="168" y="143">已完成｜真實 RapidAPI 取樣</text>
+  <text class="detail" x="168" y="173">6 個成功批次、10 筆觀測／8 個 ASIN；本機已用 17 / 30，今日 5 / 5</text>
+
+  <path class="arrow" d="M600 192 L600 208" />
+  <rect class="box done" x="84" y="214" width="1032" height="76" />
+  <circle cx="124" cy="252" r="23" fill="#258054" /><text class="badge" x="124" y="252">2</text>
+  <text class="title" x="168" y="245">已完成｜入庫、來源留存與程式對帳</text>
+  <text class="detail" x="168" y="275">樣本 #9 對帳 PASS；累計 8 件觀測有證據，舊批次 2 件仍缺證</text>
+
+  <path class="arrow" d="M600 294 L600 310" />
+  <rect class="box done" x="84" y="316" width="1032" height="76" />
+  <circle cx="124" cy="354" r="23" fill="#258054" /><text class="badge" x="124" y="354">3</text>
+  <text class="title" x="168" y="347">已完成｜新版框線報表、星級與評論留存</text>
+  <text class="detail" x="168" y="377">新版 14 頁／122 附加欄位 PASS、8 則評論；原排程報表 11 頁未改</text>
+
+  <path class="arrow" d="M600 396 L600 412" />
+  <rect class="box pending" x="84" y="418" width="1032" height="76" />
+  <circle cx="124" cy="456" r="23" fill="#b17a20" /><text class="badge" x="124" y="456">4</text>
+  <text class="title" x="168" y="449">部分完成｜Amazon 頁面查驗與網站紀錄</text>
+  <text class="detail" x="168" y="479">1 筆 Codex 代查、9 筆待核對；美元價格及逐則全文仍待獨立核對</text>
+
+  <path class="arrow" d="M600 498 L600 514" />
+  <rect class="box active" x="84" y="520" width="1032" height="76" />
+  <circle cx="124" cy="558" r="23" fill="#2762a3" /><text class="badge" x="124" y="558">5</text>
+  <text class="title" x="168" y="551">進行中｜五天本機自動取樣與查驗</text>
+  <text class="detail" x="168" y="581">10-06 至 10-08 待跑，最多再用 9 次；計畫 READY，預估餘 4 次</text>
+
+  <path class="arrow" d="M600 600 L600 616" />
+  <rect class="box done" x="84" y="622" width="1032" height="76" />
+  <circle cx="124" cy="660" r="23" fill="#258054" /><text class="badge" x="124" y="660">6</text>
+  <text class="title" x="168" y="653">已完成｜每期分類、品牌與價格帶取樣統計</text>
+  <text class="detail" x="168" y="683">8 件最新取樣、同範圍 CSV；累計評分數不重複相加</text>
+
+  <path class="arrow" d="M600 702 L600 718" />
+  <rect class="box done" x="84" y="724" width="1032" height="76" />
+  <circle cx="124" cy="762" r="23" fill="#258054" /><text class="badge" x="124" y="762">7</text>
+  <text class="title" x="168" y="755">已完成｜來源評論唯讀呈現與匯出</text>
+  <text class="detail" x="168" y="785">27 筆來源規格候選、8 則評論原文；下一步：原排程資料覆蓋與一致性</text>
+</svg>

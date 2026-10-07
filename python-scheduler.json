@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "plan": "plans/hand-tools-20261004-08.json",
+  "expected_sha256": "2467613a5510f1b393fc80a905af737bbffa3c859ea41414bad1d90d650da6e0",
+  "timezone": "Asia/Taipei",
+  "collect_at": "10:00",
+  "report_at": "10:10",
+  "grace_minutes": 15,
+  "poll_seconds": 10,
+  "output_dir": "exports/daily",
+  "initial_review_workbook": "exports/amazon-portfolio-run6-verified-20261004.xlsx",
+  "state_file": "data/python-scheduler-state.json"
+}

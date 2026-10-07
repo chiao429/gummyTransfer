@@ -1,0 +1,108 @@
+{
+  "task": {
+    "id": "cd72f622102a46f326be0c5f19b8151f",
+    "kind": "collect",
+    "source": "demo",
+    "request": {
+      "kind": "collect",
+      "source": "demo",
+      "query": "socket wrench set",
+      "category": "套筒扳手",
+      "max_products": 2,
+      "run_id": null
+    },
+    "status": "SUCCEEDED",
+    "phase": "done",
+    "reserved_requests": 0,
+    "run_id": 1,
+    "cancel_requested": false,
+    "created_at": "2026-10-05T16:21:42+00:00",
+    "updated_at": "2026-10-05T16:21:48+00:00",
+    "started_at": "2026-10-05T16:21:43+00:00",
+    "completed_at": "2026-10-05T16:21:48+00:00",
+    "error_code": null,
+    "events": [
+      {
+        "id": 1,
+        "task_id": "cd72f622102a46f326be0c5f19b8151f",
+        "phase": "queued",
+        "occurred_at": "2026-10-05T16:21:42+00:00",
+        "detail": "已確認並排隊"
+      },
+      {
+        "id": 2,
+        "task_id": "cd72f622102a46f326be0c5f19b8151f",
+        "phase": "search",
+        "occurred_at": "2026-10-05T16:21:43+00:00",
+        "detail": "已處理 0 / 0 件"
+      },
+      {
+        "id": 3,
+        "task_id": "cd72f622102a46f326be0c5f19b8151f",
+        "phase": "details",
+        "occurred_at": "2026-10-05T16:21:43+00:00",
+        "detail": "已處理 0 / 2 件"
+      },
+      {
+        "id": 4,
+        "task_id": "cd72f622102a46f326be0c5f19b8151f",
+        "phase": "details",
+        "occurred_at": "2026-10-05T16:21:43+00:00",
+        "detail": "已處理 1 / 2 件"
+      },
+      {
+        "id": 5,
+        "task_id": "cd72f622102a46f326be0c5f19b8151f",
+        "phase": "verify",
+        "occurred_at": "2026-10-05T16:21:43+00:00",
+        "detail": "已處理 2 / 2 件"
+      },
+      {
+        "id": 6,
+        "task_id": "cd72f622102a46f326be0c5f19b8151f",
+        "phase": "collected",
+        "occurred_at": "2026-10-05T16:21:43+00:00",
+        "detail": ""
+      },
+      {
+        "id": 7,
+        "task_id": "cd72f622102a46f326be0c5f19b8151f",
+        "phase": "report",
+        "occurred_at": "2026-10-05T16:21:43+00:00",
+        "detail": ""
+      },
+      {
+        "id": 8,
+        "task_id": "cd72f622102a46f326be0c5f19b8151f",
+        "phase": "done",
+        "occurred_at": "2026-10-05T16:21:48+00:00",
+        "detail": "報表產生與讀回驗證通過"
+      }
+    ],
+    "actual_requests": 0,
+    "report": {
+      "verified": true,
+      "workbook_version": 3
+    }
+  },
+  "sheets": [
+    "分類總覽",
+    "規格組合",
+    "跨分類商品",
+    "對帳索引",
+    "來源欄位對照",
+    "規格映射",
+    "其他01-套筒扳手"
+  ],
+  "visible_border_definitions": 2,
+  "download_hash_matches": true,
+  "quota": {
+    "scope": "this_database_only",
+    "day_timezone": "UTC",
+    "day": "2026-10-05",
+    "total_used": 0,
+    "total_limit": 30,
+    "daily_used": 0,
+    "daily_limit": 5
+  }
+}

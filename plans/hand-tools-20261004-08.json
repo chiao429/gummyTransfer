@@ -1,0 +1,37 @@
+{
+  "plan_id": "handtools-20261004-08",
+  "source": "rapidapi",
+  "country": "US",
+  "batches": [
+    {
+      "date": "2026-10-04",
+      "query": "claw hammer",
+      "category": "羊角鎚(Claw Hammer)",
+      "max_products": 2
+    },
+    {
+      "date": "2026-10-05",
+      "query": "1/2 inch drive torque wrench",
+      "category": "扭力扳手1/2(Torque Wrench 1/2)",
+      "max_products": 2
+    },
+    {
+      "date": "2026-10-06",
+      "query": "adjustable wrench",
+      "category": "活動扳手(Adjustable Wrench)",
+      "max_products": 2
+    },
+    {
+      "date": "2026-10-07",
+      "query": "digital torque wrench",
+      "category": "數位扭力扳手(Digital Torque Wrench)",
+      "max_products": 2
+    },
+    {
+      "date": "2026-10-08",
+      "query": "tin snips",
+      "category": "鐵皮剪(Tin Snips)",
+      "max_products": 2
+    }
+  ]
+}

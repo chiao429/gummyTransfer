@@ -1,0 +1,31 @@
+{
+  "verified_at": "2026-10-06T03:20:15.029514+00:00",
+  "scheduler_online": true,
+  "scheduler_backend": "python",
+  "collect_at": "10:00",
+  "report_at": "10:10",
+  "restart_preserved_jobs": true,
+  "quota": {
+    "scope": "this_database_only",
+    "day_timezone": "UTC",
+    "day": "2026-10-06",
+    "total_used": 20,
+    "total_limit": 30,
+    "daily_used": 3,
+    "daily_limit": 5
+  },
+  "original_reports_unchanged": 3,
+  "plan_unchanged": true,
+  "old_calendar_agents_disabled": [
+    "com.woobe.gummy.plan.handtools-20261004-08",
+    "com.woobe.gummy.report.handtools-20261004-08"
+  ],
+  "codex_followup_deleted": true,
+  "tests": {
+    "passed": 170,
+    "skipped_postgresql": 1
+  },
+  "independent_workbook_verifier": "PASS",
+  "python_report_sheets": 15,
+  "platform_verified": "macos"
+}

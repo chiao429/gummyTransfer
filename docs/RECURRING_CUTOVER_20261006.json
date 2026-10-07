@@ -1,0 +1,124 @@
+{
+  "status": "MIGRATED",
+  "backup": "/Users/eddiechu/Program/Rapid/data/backups/gummy-before-recurring-20261006T075937Z.sqlite3",
+  "backup_sha256": "fa0749df7f48ddea8eb069a24d298a1b8e9ab67dab734a25de3c3da4400b7f27",
+  "legacy_tables_unchanged": true,
+  "tables": {
+    "collection_runs": {
+      "rows": 10,
+      "sha256": "687b6bbb975e804f3f443432578d5c7c1cc19abaa21bfe33b0707228e21bc979"
+    },
+    "quota_budgets": {
+      "rows": 6,
+      "sha256": "f5794fb7bb73c984f8422a4813c0a220aed7dadc4a96e905e4fb58a337df9fd4"
+    },
+    "product_snapshots": {
+      "rows": 16,
+      "sha256": "aa504337588cf3d85308bb1604a95c88c18e0fd5b33c4700aa498b8dec0b5ef1"
+    },
+    "api_attempts": {
+      "rows": 20,
+      "sha256": "2c4229d5019902226071dddd07b4a9b2328032d2bad684fdf8a12ea9a35cb665"
+    },
+    "source_observations": {
+      "rows": 10,
+      "sha256": "06c2ef323d6bff7a7eddc13e999498725e159d64d7bacf313e9c093e21969adb"
+    },
+    "provider_quota_state": {
+      "rows": 1,
+      "sha256": "d72bf4ea134a1c18fb5075378e8d9317ff1531e79e837d3293cc050b86a9d84c"
+    },
+    "human_review_heads": {
+      "rows": 1,
+      "sha256": "ca730a00d9a4f153d16eda6d076909f8f92c1a1b8763da6d7e6913e865a51ff5"
+    },
+    "human_review_events": {
+      "rows": 1,
+      "sha256": "54a005d6a8ea3d8962a8c82dccd41f17a99956a64f0e92ce43e1f0d52328e60f"
+    },
+    "human_review_annotations": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "operation_worker_state": {
+      "rows": 1,
+      "sha256": "6177be1a053bbbed8f4498504437c7f013f0263c94bd23c518d2e8ffe270e73a"
+    },
+    "operation_tasks": {
+      "rows": 1,
+      "sha256": "cb4d079a91a044eed7079ddb1958023f533ba51dc797efde2c6aa7359d96a93f"
+    },
+    "operation_reports": {
+      "rows": 1,
+      "sha256": "6fc8f7987e53db13ce8361472e18782165ae93858f84fa639b68cc6e91a092f9"
+    },
+    "operation_task_events": {
+      "rows": 3,
+      "sha256": "e9f928ca2100e41c7447c02b3ef9b1de51f6ef14b0ce69c76c488eb22382c2f7"
+    },
+    "schedule_versions": {
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "report_versions": {
+      "rows": 1,
+      "sha256": "7bad58ff84daa3ae0cb16e928e808665cac195df4bb37cca2aea7ffc971f44c5"
+    }
+  },
+  "rules": [
+    {
+      "id": "bb653978067b5d14ce1c13262461ec37",
+      "name": "數位扭力扳手(Digital Torque Wrench)",
+      "frequency": "once",
+      "date": "2026-10-07",
+      "at": "10:00"
+    },
+    {
+      "id": "be27a86b4c60ebd286bdd0426156fd96",
+      "name": "鐵皮剪(Tin Snips)",
+      "frequency": "once",
+      "date": "2026-10-08",
+      "at": "10:00"
+    }
+  ],
+  "quota": {
+    "scope": "this_database_only",
+    "day_timezone": "UTC",
+    "day": "2026-10-06",
+    "total_used": 20,
+    "total_limit": 30,
+    "daily_used": 3,
+    "daily_limit": 5
+  },
+  "validation": {
+    "pytest_passed": 194,
+    "pytest_skipped": 1,
+    "skip_reason": "PostgreSQL optional integration",
+    "ruff_changed_files": "PASS",
+    "dependency_check": "PASS",
+    "browser_flow": "weekly rule preview/save, demo multi-category immediate run, verified XLSX download",
+    "mobile_viewport": "390x844; no page or input overflow",
+    "desktop_viewport": "1440x1000",
+    "real_provider_calls_during_verification": 0,
+    "service_recovery": "UI bootstrap initially raced previous shutdown; succeeded on retry after old process exited"
+  },
+  "post_switch_counts": {
+    "runs": 10,
+    "attempts": 20,
+    "recurring_rules": 2,
+    "recurring_occurrences": 0
+  },
+  "live_verification": {
+    "pages": {
+      "/health": 200,
+      "/schedules": 200,
+      "/schedules/new": 200,
+      "/schedules/legacy": 200,
+      "/reports?source=rapidapi": 200,
+      "/?source=rapidapi": 200
+    },
+    "scheduler_online": true,
+    "next_at": "2026-10-07T02:00:00+00:00",
+    "rules": 2
+  }
+}

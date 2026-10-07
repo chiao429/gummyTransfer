@@ -1,0 +1,3 @@
+﻿run_id,source,is_demo,category,query,country,asin,title,brand,price,currency,rating,rating_count,material,measurement_system,title_measurement_candidates,title_measurement_evidence,size,color,observed_at,warnings
+5,rapidapi,False,棘輪扳手(Ratchet Wrench),ratchet wrench,US,B08GBTB2JQ,"DURATECH 3/8-Inch Drive Ratchet, 90-Tooth Quick-Release Ratchet Wrench",DURATECH,13.49,USD,4.7,1529,,,,,,"black, silver",2026-10-03T01:00:19+00:00,
+5,rapidapi,False,棘輪扳手(Ratchet Wrench),ratchet wrench,US,B08YRLZCPJ,"Egofine 46 Pieces 1/4 inch Drive Socket Ratchet Wrench Set, with Bit Socket Set Metric and Extension Bar for Auto Repairing and Household, with Storage Case",Egofine,14.99,USD,4.4,9336,chrome vanadium steel,,metric,unverified_title_keyword,,red,2026-10-03T01:00:25+00:00,

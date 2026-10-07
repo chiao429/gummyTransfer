@@ -1,0 +1,3 @@
+﻿run_id,source,is_demo,category,query,country,asin,title,brand,price,currency,rating,rating_count,material,measurement_system,size,color,observed_at,warnings
+1,demo,True,套筒扳手,socket wrench set,US,DEMO000001,[模擬] 公制鋼製套筒組,Demo A,10.50,USD,4.5,12,steel,metric,10 mm,,2026-10-01T15:34:46+00:00,
+1,demo,True,套筒扳手,socket wrench set,US,DEMO000002,[模擬] 英制鋼製套筒組,Demo B,20.00,USD,4.0,8,steel,sae,3/8 inch,,2026-10-01T15:34:46+00:00,

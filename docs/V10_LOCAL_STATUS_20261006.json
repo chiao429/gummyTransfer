@@ -1,0 +1,85 @@
+{
+  "verified_at": "2026-10-06T07:05:45.003130+00:00",
+  "version": "V10 local",
+  "tests": {
+    "passed": 180,
+    "skipped_postgresql": 1,
+    "final_related_passed": 37
+  },
+  "quota": {
+    "scope": "this_database_only",
+    "day_timezone": "UTC",
+    "day": "2026-10-06",
+    "total_used": 20,
+    "total_limit": 30,
+    "daily_used": 3,
+    "daily_limit": 5
+  },
+  "provider_calls_added": 0,
+  "scheduler": {
+    "online": true,
+    "backend": "python",
+    "enabled": true,
+    "revision": 0,
+    "collect_at": "10:00",
+    "report_at": "10:10",
+    "phase": "waiting"
+  },
+  "original_daily_reports_unchanged": 3,
+  "base_plan_and_config_unchanged": true,
+  "migration_original_tables_unchanged": 13,
+  "source_verification": [
+    {
+      "run_id": 7,
+      "status": "PASS"
+    },
+    {
+      "run_id": 8,
+      "status": "PASS"
+    },
+    {
+      "run_id": 9,
+      "status": "PASS"
+    },
+    {
+      "run_id": 10,
+      "status": "PASS"
+    }
+  ],
+  "report": {
+    "id": "81dca23463c6471b4e364f51dde9e2c8",
+    "source": "rapidapi",
+    "period": [
+      "2026-10-04",
+      "2026-10-06"
+    ],
+    "frozen_runs": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "product_count": 6,
+    "groups": 5,
+    "sheets": [
+      "報表說明",
+      "取樣統計",
+      "商品明細",
+      "批次來源"
+    ],
+    "csv_db_xlsx_values": "PASS",
+    "cell_borders": "PASS",
+    "readback": "PASS",
+    "sha256": "e3e7741271ae36715c9a090d3e36c804f67e0f0e5568a477747ad4c52f43a22f"
+  },
+  "browser_demo": {
+    "report_versions": 2,
+    "schedule_pause_version": 1,
+    "supplier_calls": 0
+  },
+  "platform_verified": "macos",
+  "independent_render_sheets": 4,
+  "responsive_no_page_overflow": true,
+  "responsive_test_width": 390,
+  "backup": "data/backups/gummy-20261006T065621Z.sqlite3"
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">gummy V10 本機功能已完成</title><desc id="desc">來源基準、營運總覽、背景任務、V9 排程管理及 V10 固定期間報表完成本機驗證，正式雲端及跨平台驗收待進行。</desc>
+<rect width="1200" height="320" fill="#f4f7f6"/>
+<g font-family="PingFang TC, Noto Sans TC, sans-serif" fill="#183b32">
+<text x="36" y="44" font-size="26" font-weight="700">gummy：V10 本機功能已完成</text><text x="36" y="74" font-size="16">2026-10-06 · 期間報表 6 件商品 · CSV／Excel／DB 核對通過 · 原每日 15 頁保留</text>
+<path d="M210 169H1000" stroke="#9aafa7" stroke-width="3"/>
+<g><rect x="36" y="114" width="210" height="118" rx="12" fill="#e2eee8"/><text x="52" y="143" font-size="20" font-weight="700">V6 來源基準</text><text x="52" y="172" font-size="16">商品與評論原文</text><text x="52" y="213" font-size="16">已完成</text></g>
+<g><rect x="266" y="114" width="210" height="118" rx="12" fill="#e2eee8"/><text x="282" y="143" font-size="20" font-weight="700">V7 營運總覽</text><text x="282" y="172" font-size="16">現況／額度／排程</text><text x="282" y="213" font-size="16">已完成</text></g>
+<g><rect x="496" y="114" width="210" height="118" rx="12" fill="#27624e"/><g fill="#fff"><text x="512" y="143" font-size="20" font-weight="700">V8 背景任務</text><text x="512" y="172" font-size="16">預覽 → 採集 → 報表</text><text x="512" y="213" font-size="16">本版已完成</text></g></g>
+<g><rect x="726" y="114" width="210" height="118" rx="12" fill="#e2eee8"/><text x="742" y="143" font-size="20" font-weight="700">V9 排程管理</text><text x="742" y="172" font-size="16">編輯／預估／套用</text><text x="742" y="213" font-size="16">本機已完成</text></g>
+<g><rect x="956" y="114" width="210" height="118" rx="12" fill="#27624e"/><g fill="#fff"><text x="972" y="143" font-size="20" font-weight="700">V10 報表中心</text><text x="972" y="172" font-size="16">每期／版本／追溯</text><text x="972" y="213" font-size="16">本機已完成</text></g></g>
+<text x="36" y="266" font-size="16">Python 採集 10:00 → 報表 10:10；帳本 20/30，本次新增 API 請求 0。</text>
+<text x="36" y="294" font-size="16">下一階段：10/07–10/08 到期驗證、跨機還原、長期計畫；雲端正式上線仍待驗收。</text>
+</g></svg>
